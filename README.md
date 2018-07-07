@@ -1,6 +1,17 @@
-<p align="center"><img src="https://raw.githubusercontent.com/dsys/pavlov/master/resources/logo.png" alt="logo" width="480" /></p>
+<img src="https://raw.githubusercontent.com/dsys/pavlov/master/resources/logo.png" alt="logo" width="320" />
 
-A state-of-the-art content moderation service
+**A state-of-the-art content moderation service**
+
+Use Pavlov to screen images for explicit, malicious, or infringing content. Pavlov is an automation solution that puts you in control of your content moderation process and continuously learns from your feedback.
+
+## Features
+
+* **Automated content moderation** — Use our state of the art computer vision models based on InceptionV3 in addition to Google Cloud Vision to moderate images for malicious content. Use our ready-made models for efficient bootstrapping.
+* **Analyst console** — Pavlov features an advanced analyst console for your content reviewers to use out of the box. Approve and deny images right from your browser, no machine learning experience required.
+* **Human-in-the-loop annotations** — Hook up Pavlov to your Amazon Mechanical Turk account to automatically process flagged content according to your policies.
+* **Perceptual hashing** — Flag content according to your own company guidelines. Pavlov will automatically detect similar-looking images and treat them according to your policy.
+* **Highly scalable** — Pavlov uses Google Cloud Functions and AWS Lambdas to automatically scale its image processing pipeline to meet the growing demands of your business. Pavlov can process hundreds of thousands of images per day!
+* **Self-hosted** — You can host Pavlov yourself on any Kubernetes cluster using our easy-to-deploy Helm charts.
 
 ## Screenshots
 
